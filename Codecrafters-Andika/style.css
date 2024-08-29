@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+h1 {
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-weight: 550;
+  margin: auto;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+table tr:nth-child(odd) {
+  background-color: #bad6eb;
+}
+
+table tr:nth-child(even) {
+  background-color: #7096d1;
+}
+
+table tr th {
+  background-color: white;
+  color: #000000;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding-bottom: 10px;
+}
+
+img {
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 0 20px 2px black;
+  transition: 1s;
+}
+
+.judul {
+  background-color: #334eac;
+  width: 100%;
+  text-align: center;
+  padding: 10px ;
+}
+
+.container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  width: 100%;
+}
+
+.index .container {
+  margin-top: 1rem;
+}
+
+.anggota{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.index .anggota, .index .anggota, .index .anggota {
+  background-color: gainsboro;
+  width: 300px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+
+table{
+  color: black;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  border: 2px solid #000000;
+}
+.anggota img:hover{
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.p1 {
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+table tr, td, th {
+  padding: 5px;
+  border: 2px solid #000000;
+}
+
+th {
+  text-align: center;
+  font-size: 20px;
+}
+
+
+.logo a {
+  font-size: 30px;
+  color: #334eac;
+  margin-top: 5px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  font-family: "Poppins", sans-serif;
+  font-weight:600;
+  background-color: #bad6eb;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+  box-shadow: 0 0 7px black;
+  transition: 1s;
+}
+
+.btnback {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  padding-right: 3.6rem;
+}
+
+.back:hover {
+  cursor: pointer;
+}
+
+.back {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  background-color: #bad6eb;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+  cursor: pointer;
+}

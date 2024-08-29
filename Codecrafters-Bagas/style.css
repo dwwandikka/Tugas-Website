@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'poppins', sans-serif;
+    background: rgb(167,201,255);
+    background: radial-gradient(circle, rgba(167,201,255,1) 30%, rgba(229,174,238,1) 100%);
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+h1, p {
+    text-align: center;
+}
+
+.baris {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.kolom {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    margin: 1rem;
+}
+
+.gambar img:hover{
+    transition: 0.5s ease-in-out;
+    border-radius: 50%;
+}
+
+.kolom img{
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.media-sosial ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.media-sosial li {
+    list-style-type: none ;
+    margin-bottom: 10px;
+}
+
+.headertb {
+    text-align: center;
+}
+
+.button-back {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.button-back button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button {
+    list-style-type: none;
+}
+
+table th, td {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+table th {
+    background-color: #f2f2f2;
+}
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
